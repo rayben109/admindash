@@ -37,4 +37,3 @@ mongoose.connect(process.env.MONGO_URL, {
 }).then(() => {
     app.listen(PORT, () => console.log(`Server running on port: ${PORT}`))
 }).catch((error) => console.log(`${error} did not connect!`))
-mongodb+srv://<username>:<password>@sandbox.gs6r8.mongodb.net/?retryWrites=true&w=majority
